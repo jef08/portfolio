@@ -1,0 +1,120 @@
+/* PROJECTS SECTION */
+
+.projects-container {
+    margin: 2vh 5vw;
+    padding: 3vh 3vw;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 255, 0.685);
+}
+
+.projects-container header {
+    text-align: center;
+    font-size:clamp(18px, 5vw, 50px);
+}
+
+.projects-container p {
+    text-align: center;
+    line-height: 30px;
+    font-size: clamp(14px, 1.5vw, 20px);
+}
+
+.my-projects {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px 25px;
+}
+
+.project-card {
+    width: 30%;
+    height: 35vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    border: 1px solid blue;
+}
+
+.project-img {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    color: black;
+}
+
+.project-card:hover {
+    transform: scale(1.2);
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skill-bar {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 10px;
+}
+
+.skill-bar .skill {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.skill .tooltip {
+    visibility: hidden;
+    width: 120px;
+    left: 25%;
+    margin-left: -60px;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 9;
+}
+
+.skill:hover .tooltip {
+    visibility: visible;
+}
+
+.skill.left {
+    background-color: lightblue;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: none;
+}
+
+.skill.middle {
+    background-color: lightcoral;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.skill.right {
+    background-color: lightgreen;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-style: none;
+}
+
+.skill.left.ttt {
+    width: 60.5%;
+}
+
+.skill.middle.ttt {
+    width: 26.8%;
+}
+
+.skill.right.ttt {
+    width: 12.7%;
+}
