@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "projects.css">
         <title>Jas Fielding Portfolio</title>
     </head>
     <body>
-        <header>
+        <header id = "navbar-header">
             <nav class = "navbar">
                 <ul class = "links">
                     <li><a href="#home">Home</a></li>
@@ -23,25 +24,325 @@
         </header>
         <section id = "home">
             <div class = "home-container">
-                <h1>Hello, I'm Jasmine Fielding</h1>
-                <p>An enthusiatic and new addition to the world of web development</p>
-                <img>
-                <video></video>
+                <div class = "home-info">
+                    <h1>Hello,<br> I'm Jasmine Fielding</h1>
+                    <p>An enthusiatic new addition to the world of web development, interested in 
+                        both front-end and back-end development.
+                    </p>
+                </div>
+                <img src = "images/placeholder.jpg" alt = "Image">
+                <iframe src="https://www.youtube.com/embed/N4BnJ613370?si=Dl16znwKf3EHaNK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
         <section id = "about">
             <div class = "about-container">
+                <header>About Me</header>
+
+                <div class = "about-me">
+                    <p>Based in Valencia, Spain, but originally from the western United States, I'm a dedicated and enthusiastic student; passionate about honing and developing my skills. 
+                        Currently completing my first year of a web application development program at Florida Universitària.
+                    </p>
+                    <p><strong>Find me on:</strong><br>
+                    <img src="images/LinkedIn_icon.svg.png"> <a href="https://www.linkedin.com/in/jasmine-fielding/"> LinkedIn</a><br>
+                    <img src="images/github-mark-white.svg"> <a href="https://github.com/jef08"> GitHub</a></p>
+                </div>
+
+                <div class = "education">
+                    <h1>Studies</h1><br>
+                    <div class = "florida">
+                        <img src = "images/florida-universitaria.jpg">
+                        <div class = "overlay">
+                            <h3>Florida Universitària</h3>
+                            <p>I've been studying web application development since September 2024 at Florida Universitària based in Catarroja, Spain. 
+                                I have learned and worked with PHP, MySQL, XML, XSD, JSON, Git and cloud technologies.</p>
+                        </div>
+                    </div>
+                    <div class = "odin">
+                        <img src = "images/odin-project.png">
+                        <div class = "overlay">
+                            <h3>The Odin Project</h3>
+                            <p>I've been learning through The Odin Project since January of 2024. I've gained both foundational and intermediate skills using HTML, CSS, JavaScript, and Webpack
+                                , and completed various projects while applying these skills.</p>
+                        </div>
+                    </div>
+                    <div class = "utah">
+                        <img src = "images/uofu.png">
+                        <div class = "overlay">
+                            <h3>University of Utah</h3>
+                            <p>I earned a Master's degree in Language Pedagogy with an emphasis in Spanish
+                            at the Univeristy of Utah, studying there from August 2019 to May 2021 learning how to teach others.
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "weber">
+                        <img src = "images/wsu.webp">
+                        <div class = "overlay">
+                            <h3>Weber State University</h3>
+                            <p>My first degree was in Spanish Philology; though it may seems unrelated to web development at first glance, 
+                            having learned a foreign language created a linguistic foundation for me to ease my transition into learning
+                            programming languages. </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class = "languages">
+                    <h1>Languages</h1>
+                    <div class = "language">
+                        <p class = "en"><strong>English</strong><br> C2 (native)</p>
+                        <p class = "sp"><strong>Spanish</strong><br> C2 (advanced mid)</p>
+                        <p class = "vlc"><strong>Valencian/Catalan</strong><br> B2 (intermediate high)</p>
+                    </div>
+                </div>
+                
+                <div class = "work">
+                    <h1>Work Experience</h1><br>
+
+                    <div class = "cards">
+                    <div class = "flip-card">
+                        <div class = "flip-card-inner">
+                            <div class = "flip-card-front">
+                                <h3>English Teaching</h3>
+                            </div>
+                            <div class = "flip-card-back">
+                                <p>One of my latest jobs was teaching English at the language center of the University of Valencia. 
+                                Here I took care of lesson planning, teaching, and grading.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "flip-card">
+                        <div class = "flip-card-inner">
+                            <div class = "flip-card-front">
+                                <h3>Cemetery Lawn Maintanence</h3>
+                            </div>
+                            <div class = "flip-card-back">
+                                <p>A unique work experience I've had was working at a local cemetery, maintaining the grass and keeping
+                                the headstones looking nice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "flip-card">
+                        <div class = "flip-card-inner">
+                            <div class = "flip-card-front">
+                                <h3>Spanish Teaching</h3>
+                            </div>
+                            <div class = "flip-card-back">
+                                <p>While completing my Master's degree I had the opportunity to work as a Spanish professor at the Univeristy
+                                of Utah. Here I planned and gave lessons in Spanish, and graded assignments and exams.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "flip-card">
+                        <div class = "flip-card-inner">
+                            <div class = "flip-card-front">
+                                <h3>English Conversation Tutor</h3>
+                            </div>
+                            <div class = "flip-card-back">
+                                <p>Between my Bachelor's and Master's degrees I worked with the Spanish Ministry of Education as a teacher's aide
+                                 in a Spanish elementary school. I helped students with their oral skills in English.
+                                </p><br>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "flip-card">
+                        <div class = "flip-card-inner">
+                            <div class = "flip-card-front">
+                                <h3>Spanish Tutor</h3>
+                            </div>
+                            <div class = "flip-card-back">
+                                <p>While completing my Bachelor's degree I worked as a Spanish tutor for the foreign language department.
+                                I helped students with assignments and looked over their work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div class = "skills-container">
+                    <h1>Skills</h1>
+                    <div class = "skills">
+                        <span class = "skill">HTML</span>
+                        <span class = "skill">CSS</span>
+                        <span class = "skill">PHP</span>
+                        <span class = "skill">JavaScript</span>
+                        <span class = "skill">JSON</span>
+                        <span class = "skill">MySQL</span>
+                        <span class = "skill">Webpack</span>
+                        <span class = "skill">XML</span>
+                        <span class = "skill">XSD</span>
+                        <span class = "skill">Git</span>
+                        <span class = "skill">Docker</span>
+                        <span class = "skill">Shell Script</span>
+                    </div>
+                </div>
+
+                <div class = "cv-download">
+                    <p>Download my CV!</p>
+                </div>
 
             </div>
         </section>
-        <section id = "portfolio">
-            <div class = "portfolio-container">
+        <section id = "projects">
+            <div class = "projects-container">
+                <header>Projects</header>
+                <p>Discover my projects.<br>Old, new, and in progress</p>
+                <div class = "my-projects">
 
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/tic-tac-toe" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/tic-tac-toe.png" alt = "tic-tac-toe">
+                            </div>
+                        </a>
+                        <p>Tic-Tac-Toe</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left ttt">JavaScript<span class = "tooltip">60.5%</span></div>
+                            <div class = "skill middle ttt">CSS<span class = "tooltip">26.8%</span></div>
+                            <div class = "skill right ttt">HTML<span class = "tooltip">12.7%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/Biblioteca" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/biblioteca.png" alt = "Biblioteca">
+                            </div>
+                        </a>
+                        <p>Biblioteca</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left bib">PHP<span class = "tooltip">89%</span></div>
+                            <div class = "skill right bib">CSS<span class = "tooltip">11%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/portfolio" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/biblioteca.png" alt = "My Portfolio">
+                            </div>
+                        </a>
+                        <p>My portfolio</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left por">HTML<span class = "tooltip">60.1%</span></div>
+                            <div class = "skill right por">CSS<span class = "tooltip">39.9%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/calculator_TOP" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/calculator.png" alt = "Calculator">
+                            </div>
+                        </a>
+                        <p>Calculator</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left cal">JavaScript<span class = "tooltip">65%</span></div>
+                            <div class = "skill middle cal">CSS<span class = "tooltip">19.5%</span></div>
+                            <div class = "skill right cal">HTML<span class = "tooltip">15.5%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/task-list" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/task-list.png" alt = "Task list">
+                            </div>
+                        </a>
+                        <p>Task List</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left tas">PHP<span class = "tooltip">82.9%</span></div>
+                            <div class = "skill middle tas">CSS<span class = "tooltip">10%</span></div>
+                            <div class = "skill right tas">HTML<span class = "tooltip">7.1%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/weather-app" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/task-list.png" alt = "Weather app">
+                            </div>
+                        </a>
+                        <p>Weather app (WIP)</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left wea">PHP<span class = "tooltip">47.9%</span></div>
+                            <div class = "skill middle wea">CSS<span class = "tooltip">36%</span></div>
+                            <div class = "skill right wea">HTML<span class = "tooltip">16.1%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/Rock-Paper-Scissors" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/rock-paper-scissors.png" alt = "Rock-Paper-Scissors">
+                            </div>
+                        </a>
+                        <p>Rock-Paper-Scissors</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left rps">JavaScript<span class = "tooltip">60.4%</span></div>
+                            <div class = "skill middle rps">CSS<span class = "tooltip">21.2%</span></div>
+                            <div class = "skill right rps">HTML<span class = "tooltip">18.4%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/Etch-a-Sketch" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/etch-a-sketch.png" alt = "Etch-a-Sketch">
+                            </div>
+                        </a>
+                        <p>Etch-a-Sketch</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left eas">JavaScript<span class = "tooltip">47.8%</span></div>
+                            <div class = "skill middle eas">CSS<span class = "tooltip">29.6%</span></div>
+                            <div class = "skill right eas">HTML<span class = "tooltip">22.6%</span></div>
+                        </div>
+                    </div>
+
+                    <div class = "project-card">
+                        <a href = "https://github.com/jef08/to-do-list" target = "_blank" rel = "noopener noreferrer">
+                            <div class = "project-img">
+                                <img src = "images/etch-a-sketch.png" alt = "To-do-list">
+                            </div>
+                        </a>
+                        <p>To-do-list (WIP)</p>
+                        <div class = "skill-bar">
+                            <div class = "skill left tdl">JavaScript<span class = "tooltip">72.3%</span></div>
+                            <div class = "skill middle tdl">CSS<span class = "tooltip">23.8%</span></div>
+                            <div class = "skill right tdl">HTML<span class = "tooltip">3.9%</span></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
+
         <section id = "contact">
             <div class = "contact-container">
+                <div class = "contact-me">
+                <h1>Interested in working together?</h1>
+                <h6>Get in contact with me and I'll respond shortly.</h6>
+            </div>
+            <div class = "form-container">
+                <form action = "contacto.php" method = "POST">
+                    <label for = "name">Name:</label>
+                    <input type = "text" id = "name" name = "name" required><br>
 
+                    <label for = "email">Email:</label>
+                    <input type = "email" id = "email" name = "email" required><br>
+
+                    <label for = "message">Message:</label>
+                    <textarea id = "message" name = "message" required></textarea><br>
+
+                    <button type = "submit">Get in touch!</button>
+                </form>
+            </div>
             </div>
         </section>
     </body>

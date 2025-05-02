@@ -17,18 +17,24 @@
     text-align: center;
     line-height: 30px;
     font-size: clamp(14px, 1.5vw, 20px);
+    padding-bottom: 20px;
 }
 
 .my-projects {
-    width: 90%;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 35px 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
 }
 
 .project-card {
     width: 30%;
-    height: 35vh;
+    min-width: 250px;
+    height: auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -36,13 +42,15 @@
     flex-direction: column;
     gap: 7px;
     border: 1px solid blue;
+    box-sizing: border-box;
+    transition: transform .3s ease;
 }
 
 .project-img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1 / 1;
     background-color: white;
-    color: black;
 }
 
 .project-card:hover {
@@ -53,12 +61,17 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .skill-bar {
-    width: 300px;
+    width: 100%;
+    min-width: 30%;
+    flex: 1;
+    max-width: 310px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     color: black;
     font-size: 10px;
 }
@@ -67,19 +80,24 @@
     padding: 5px;
     text-align: center;
     font-size: 14px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill .tooltip {
     visibility: hidden;
-    width: 120px;
-    left: 25%;
-    margin-left: -60px;
-    background-color: rgba(0, 0, 0, 0.616);
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 125%;
+    transform: translateX(-50%);
+    background-color: rgba(168, 36, 36, 0.226);
     color: white;
     text-align: center;
     padding: 5px;
     border-radius: 6px;
-    position: absolute;
     z-index: 9;
 }
 
@@ -117,4 +135,94 @@
 
 .skill.right.ttt {
     width: 12.7%;
+}
+
+.skill.left.bib {
+    width: 89%;
+}
+
+.skill.right.bib {
+    width: 11%;
+}
+
+.skill.left.por {
+    width: 60.1%;
+}
+
+.skill.right.por {
+    width: 39.9%;
+}
+
+.skill.left.cal {
+    width: 65%;
+}
+
+.skill.middle.cal {
+    width: 19.5%;
+}
+
+.skill.right.cal {
+    width: 15.5%;
+}
+
+.skill.left.tas {
+    width: 82.9%;
+}
+
+.skill.middle.tas {
+    width: 10%;
+}
+
+.skill.right.tas {
+    width: 7.1%;
+    font-size: 10px;
+}
+
+.skill.left.wea {
+    width: 47.9%;
+}
+
+.skill.middle.wea {
+    width: 36%;
+}
+
+.skill.right.wea {
+    width: 16.1%;
+}
+
+.skill.left.rps {
+    width: 60.4%;
+}
+
+.skill.middle.rps {
+    width: 21.2%;
+}
+
+.skill.right.rps {
+    width: 18.4%;
+}
+
+.skill.left.eas {
+    width: 47.8%;
+}
+
+.skill.middle.eas {
+    width: 29.6%;
+}
+
+.skill.right.eas {
+    width: 22.6%;
+}
+
+.skill.left.tdl {
+    width: 72.3%;
+}
+
+.skill.middle.tdl {
+    width: 23.8%;
+}
+
+.skill.right.tdl {
+    width: 3.9%;
+    font-size: 8px;
 }
