@@ -2,10 +2,12 @@
 
 .projects-container {
     margin: 2vh 5vw;
-    padding: 3vh 3vw;
-    background-color: black;
+    padding: 3.5vh 3vw;
+    background-color: #213555;
+    border: 1px solid #1a2a44;
+    border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0px 0px 15px 7px rgba(0, 0, 255, 0.685);
+    color: #f5efe7
 }
 
 .projects-container header {
@@ -37,11 +39,13 @@
     height: auto;
     padding: 20px;
     display: flex;
+    background-color: #3e5879;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     gap: 7px;
-    border: 1px solid blue;
+    border: 1px solid #364c69;
+    border-radius: 4px;
     box-sizing: border-box;
     transition: transform .3s ease;
 }
@@ -94,7 +98,7 @@
     bottom: 125%;
     transform: translateX(-50%);
     background-color: rgba(168, 36, 36, 0.226);
-    color: white;
+    color: #f5efe7;
     text-align: center;
     padding: 5px;
     border-radius: 6px;
@@ -106,20 +110,20 @@
 }
 
 .skill.left {
-    background-color: lightblue;
+    background-color: rgb(177, 176, 240);
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-style: none;
 }
 
 .skill.middle {
-    background-color: lightcoral;
+    background-color: rgb(230, 164, 164);
     border-radius: 0px;
     border-style: none;
 }
 
 .skill.right {
-    background-color: lightgreen;
+    background-color: rgb(231, 241, 171);
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-style: none;
