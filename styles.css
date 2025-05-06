@@ -17,6 +17,7 @@ body {
     top: 0;
     z-index: 10;
     background-color: #d8c4b6;
+    width: 100vw;
 }
 
 .navbar {
@@ -24,7 +25,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
     box-shadow: 0px 3px 7px #948979;
@@ -58,8 +59,9 @@ a:hover {
 
 .lang {
     white-space: nowrap;
-    margin-right: 1vw;
     font-size: clamp(14px, .5vw, 24px);
+    margin-right: 1vw;
+    box-sizing: border-box;
 }
 
 .navbar li {
@@ -406,6 +408,7 @@ a:hover {
 .form-container {
     width: 50%;
     margin-right: 10vw;
+    margin-left: 2vw;
     box-sizing:border-box;
 }
 

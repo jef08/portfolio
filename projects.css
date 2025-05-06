@@ -28,6 +28,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 50px;
@@ -109,21 +110,25 @@
     visibility: visible;
 }
 
+.skill:hover {
+    color: black;
+}
+
 .skill.left {
-    background-color: rgb(177, 176, 240);
+    background-color: #5c6bc0;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-style: none;
 }
 
 .skill.middle {
-    background-color: rgb(230, 164, 164);
+    background-color: #ef5350;
     border-radius: 0px;
     border-style: none;
 }
 
 .skill.right {
-    background-color: rgb(231, 241, 171);
+    background-color: #ffee58;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-style: none;
